@@ -27,22 +27,22 @@ public class LoginOverviewController implements Initializable{
 
     @FXML
     public void gotoManage(ActionEvent e){
-        main.gotoLogin("总经理");
+
     }
 
     @FXML
     public void gotoStock(ActionEvent e){
-        main.gotoLogin("库存管理人员");
+
     }
 
     @FXML
     public void gotoFinace(ActionEvent e){
-        main.gotoLogin("财务人员");
+
     }
 
     @FXML
     public void gotoSale(ActionEvent e){
-        main.gotoLogin("销售人员");
+
     }
 
     @Override
