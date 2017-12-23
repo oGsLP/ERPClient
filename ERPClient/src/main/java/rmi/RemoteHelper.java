@@ -23,8 +23,32 @@ public class RemoteHelper {
         return (ClassifyBLService)remote;
     }
 
-    public CommodityBLService getCommodityBLService(){
-        return (CommodityBLService)remote;
+    public GoodsOverflowBLService getGoodsOverflowBLService(){
+        return (GoodsOverflowBLService)remote;
+    }
+
+    public OverflowListBLService getOverflowListBLService(){
+        return (OverflowListBLService)remote;
+    }
+
+    public GoodsLackBLService getGoodsLackBLService(){
+        return (GoodsLackBLService)remote;
+    }
+
+    public LackListBLService getLackListBLService(){
+        return (LackListBLService)remote;
+    }
+
+    public GoodsWarningMessageBLService getGoodsWarningMessageBLService(){
+        return (GoodsWarningMessageBLService)remote;
+    }
+
+    public PresentBLService getPresentBLService(){
+        return (PresentBLService)remote;
+    }
+
+    public PresentListBLService getPresentListBLService(){
+        return (PresentListBLService)remote;
     }
 
     public GoodsBLService getGoodsBLService(){
